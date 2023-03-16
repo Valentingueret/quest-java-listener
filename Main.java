@@ -12,6 +12,6 @@ public class Main {
                 System.out.printf("Your balance is: %d%n", account.getTotal());
             }
         };
-        Transactions.withdraw(account, 300, listener);
+        Transactions.withdraw(account, 100, listener);
     }
 }

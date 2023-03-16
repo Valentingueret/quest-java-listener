@@ -1,5 +1,5 @@
 public interface TransactionListener {
 
-    void onComplete(Bank account);
+    void onComplete(Bank bank);
 
 }
